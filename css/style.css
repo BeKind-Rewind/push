@@ -43,15 +43,41 @@ body {
 /* LAYOUT
 /*******************************************/
 header {
-
+  background-image: url("../assets/top.png");
+  background-size:contain;
+  background-repeat: no-repeat;
 }
 
 footer {
 
 }
 
+#core {
+  background-image: url("../assets/bottom.png");
+  background-size:100%;
+  background-repeat: no-repeat;
+}
+
+.flex {
+  display: flex;
+}
+
+
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 
+.tech {
+  height: 50px;
+  width: 150px;
+  background-color:  var(--md-grey-card);
+  border-radius: 15px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
 
+.tech-list {
+  flex-wrap: wrap;
+
+}
