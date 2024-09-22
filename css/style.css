@@ -20,6 +20,19 @@
 /******************************************
 /* BASE STYLES
 /*******************************************/
+:root {
+  /* (font/BGimg) */
+  --dk-blue: rgb(20, 25, 35);
+  /* (image card) */
+  --md-grey-card: rgb(214, 216, 227);
+  /* (button on dark BG) */
+  --dk-grey-button: rgb(45, 50, 61);
+  /* (page BG/button) */
+  --lt-grey-button: rgb(235, 236, 242);
+  /* (dark BG/Logo grey) */
+  --lt-font-logo: rgb(107, 110, 117);
+}
+
 
 body {
 
@@ -40,3 +53,5 @@ footer {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+
