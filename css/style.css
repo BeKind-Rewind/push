@@ -35,7 +35,7 @@
 
 
 body {
-
+  color: var(--dk-blue);
 }
 
 
@@ -46,6 +46,22 @@ header {
   background-image: url("../assets/top.png");
   background-size:contain;
   background-repeat: no-repeat;
+  color: var(--lt-grey-button);
+  height:70rem;
+}
+
+nav {
+  width: 100%;
+}
+
+nav ul li a {
+  color: var(--lt-grey-button);
+  text-decoration: none;
+  margin: 1rem;
+}
+
+nav i, ul {
+  margin-top: 2rem;
 }
 
 footer {
@@ -62,7 +78,25 @@ footer {
   display: flex;
 }
 
+.around {
+  justify-content: space-around;
+}
 
+.between {
+  justify-content: space-between;
+}
+
+.evenly {
+  justify-content: space-evenly;
+}
+
+.align_center {
+  align-items: center;
+}
+
+.halve-width {
+  width:40%;
+}
 
 /******************************************
 /* ADDITIONAL STYLES
@@ -80,4 +114,31 @@ footer {
 .tech-list {
   flex-wrap: wrap;
 
+}
+
+ul {
+  text-decoration: none;
+  list-style: none;
+}
+
+.pics{
+  width: 80%;
+  border-radius: 2rem;
+  margin: 4rem;
+}
+
+.pic-card {
+  background-color: var(--md-grey-card);
+  border-radius: 2rem;
+  box-shadow: 5px 5px 10px black;
+  display: flex;
+  justify-content: center;
+}
+
+.margin-l3 {
+  margin-left: 3rem;
+}
+
+.margin-l50pc {
+  margin-left: 50%;
 }
