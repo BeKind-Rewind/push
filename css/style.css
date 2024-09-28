@@ -31,11 +31,14 @@
   --lt-grey-button: rgb(235, 236, 242);
   /* (dark BG/Logo grey) */
   --lt-font-logo: rgb(107, 110, 117);
+  /* background */
+  --lt-background: rgb(247, 247, 250);
 }
 
 
 body {
   color: var(--dk-blue);
+  background-color: var(--lt-background);
 }
 
 
@@ -48,6 +51,7 @@ header {
   background-repeat: no-repeat;
   color: var(--lt-grey-button);
   height:70rem;
+  margin-bottom: -20rem;
 }
 
 nav {
@@ -135,10 +139,24 @@ ul {
   justify-content: center;
 }
 
+/* ********
+*** Major Sections
+******** */
+
+#order {
+  background-color: var(--dk-blue);
+}
+
+/* ********
+*** Margin & Padding
+******** */
+
+
 .margin-l3 {
   margin-left: 3rem;
 }
 
 .margin-l50pc {
-  margin-left: 50%;
+  margin-left: 20%;
 }
+
