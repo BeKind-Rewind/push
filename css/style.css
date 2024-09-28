@@ -53,7 +53,7 @@ header {
   background-repeat: no-repeat;
   color: var(--lt-grey-button);
   height:70rem;
-  margin-bottom: -20rem;
+  margin-bottom: -22rem;
 }
 
 nav {
@@ -194,6 +194,11 @@ ul {
 *** Major Sections
 ******** */
 
+
+#partner_nav {
+  font-size: 4rem;
+}
+
 #order {
   background-color: var(--dk-blue);
 }
@@ -236,6 +241,6 @@ ul {
 }
 
 .top-bottom {
-  margin-top: 4rem;
-  margin-bottom: 4rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
