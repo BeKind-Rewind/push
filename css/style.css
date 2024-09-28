@@ -106,18 +106,39 @@ footer {
 /* ADDITIONAL STYLES
 /*******************************************/
 
+.upper_text_ltbg {
+  color: var(--lt-font-logo);
+  font-size: 1rem;
+}
+
+.lower_text_ltbg {
+  color:var(--dk-blue);
+  font-size: 4rem;
+}
+
+.upper_text_dkbg {
+  color: var(--lt-font-logo);
+  font-size: 1rem;
+}
+
+.lower_text_dkbg {
+  color: var(--lt-background);
+  font-size: 4rem;
+}
+
+
 .tech {
-  height: 50px;
-  width: 150px;
+  height: 150px;
+  width: 250px;
   background-color:  var(--md-grey-card);
   border-radius: 15px;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin: 1rem;
+  padding: 2rem;
+  font-size: 2rem;
 }
 
 .tech-list {
   flex-wrap: wrap;
-
 }
 
 ul {
@@ -139,6 +160,10 @@ ul {
   justify-content: center;
 }
 
+.card-size {
+  width: 100%;
+}
+
 /* ********
 *** Major Sections
 ******** */
@@ -151,6 +176,13 @@ ul {
 *** Margin & Padding
 ******** */
 
+.card-padding {
+ padding: 1rem;
+}
+
+.card-margin {
+ margin: .5rem
+}
 
 .margin-l3 {
   margin-left: 3rem;
