@@ -279,7 +279,9 @@ button {
 
 .top-bottom {
   margin-top: 6rem;
+  padding-top: 2rem;
   margin-bottom: 6rem;
+  padding-bottom: 2rem;
 }
 
 .margin-both {
