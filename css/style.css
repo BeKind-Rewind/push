@@ -288,3 +288,43 @@ button {
   margin-left: 1rem;
   margin-right: 1rem;
 }
+
+
+@media all and (min-width: 2000px) {
+  header {
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: var(--lt-grey-button);
+    height:80rem;
+    margin-bottom: -15rem;
+  }
+}
+
+
+@media all and (max-width: 1250px) {
+  nav {
+    font-size: 2rem;
+  }
+   #brand {
+    display: block; 
+    clear:both;
+    text-align: center;
+  }
+  #brand p {
+    color: var(--lt-font-logo);
+  }
+  .halve-width {
+    width: 100%;
+  }
+  .pics{
+    margin: 1rem;
+  }
+  header {
+    height: auto;
+    margin-bottom: 3rem;
+  }
+  #partner_nav ul {
+    margin-left: auto;
+  }
+  
+}
